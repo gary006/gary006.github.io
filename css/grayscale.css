@@ -10,7 +10,6 @@ body {
     font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     color: #fff;
     background-color: #000;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 html {
@@ -18,7 +17,14 @@ html {
     height: 100%;
 }
 
-h1,
+h1{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-weight: 700;
+    letter-spacing: 1px;    
+}
+
 h2,
 h3,
 h4,
@@ -29,6 +35,7 @@ h6 {
     font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-weight: 700;
     letter-spacing: 1px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 p {

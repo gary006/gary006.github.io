@@ -130,6 +130,10 @@ a:focus {
     color: #fff;
 }
 
+.big-icon {
+    font-size: 32px;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
